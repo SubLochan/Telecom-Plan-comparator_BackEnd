@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins="https://telecom-plan-comparator-frontend.onrender.com")
 @RequiredArgsConstructor
 @Tag(name = "Reviews", description = "Plan review and rating APIs")
 public class ReviewController {
