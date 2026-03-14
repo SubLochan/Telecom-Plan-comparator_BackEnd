@@ -43,7 +43,6 @@ public class AuthDto {
         private String username;
         private String email;
         private Set<User.Role> roles;
-        private Boolean enabled;
         private LocalDateTime createdAt;
     }
 
