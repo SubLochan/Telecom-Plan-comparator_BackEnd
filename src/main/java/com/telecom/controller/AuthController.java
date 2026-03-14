@@ -19,6 +19,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/auth")
+@CrossOrigin(origins="https://telecom-plan-comparator-frontend.onrender.com")
 @RequiredArgsConstructor
 @Tag(name = "Authentication", description = "Register, login, user management and admin APIs")
 public class AuthController {

@@ -17,6 +17,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/plans")
+@CrossOrigin(origins="https://telecom-plan-comparator-frontend.onrender.com")
 @RequiredArgsConstructor
 @Tag(name = "Plans", description = "Telecom plan management and comparison APIs")
 public class PlanController {
